@@ -332,6 +332,7 @@ p.e-icons span {
   flex-direction: row;
 }
 
+
 #news .main .first, #news .main .second, #news .main .third{
   width: 30%;
   /* box-shadow: 1px 1px 1px #e2e2e2; */
@@ -838,7 +839,7 @@ p.n-icons{
 }
 
 #research .main .first, #research .main .second, #research .main .third{
-  width: 31%;
+  width: 100%;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -850,6 +851,13 @@ p.n-icons{
 #research .main{
   display: block;
 }
+
+#research img {
+    /* margin-bottom: 15px; */
+    margin-top: 30PX;
+    width: 70%;
+}
+
 #research h5{
   width: 100%;
   text-align: center;
