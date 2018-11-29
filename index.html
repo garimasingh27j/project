@@ -314,18 +314,23 @@
 	<script>
 		function ToggleNav() {
 
-			var x = document.getElementById("list_main_nav").style.width;
+			// var x = document.getElementById("list_main_nav").style.width;
+			var list_main_nav = document.getElementById("list_main_nav");
 
-		{
-			if (x=="" || x=="0px")
-			{
-		    document.getElementById("list_main_nav").style.width = "175px";
+			if(list_main_nav.classList.contains('active')) {
+				list_main_nav.classList.remove('active');
+			} else {
+				list_main_nav.classList.add('active');
+			}
 
-		 	}
-		 	else{
-		 		document.getElementById("list_main_nav").style.width = "0";
-		 	}
-		 }
+			// if (x=="" || x=="0px")
+			// {
+		  //   document.getElementById("list_main_nav").style.width = "175px";
+			//
+		 	// }
+		 	// else{
+		 	// 	document.getElementById("list_main_nav").style.width = "0";
+		 	// }
 		}
 
 

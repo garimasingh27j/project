@@ -560,6 +560,10 @@ h1{
 #list_main_nav{
   display: block;
 }
+#list_main_nav.active {
+  right: 37px;
+  opacity: 1;
+}
 
 .nav_toggle{
   display: block;
@@ -570,14 +574,15 @@ h1{
 #list_main_nav {
     height: auto;
     overflow: hidden;
-    width: 0;
+    width: 175px;
     position: absolute;
     z-index: 1;
     top: 50px;
-    right: 0px;
+    right: -180px;
     background-color: #e24141;
     transition: 0.5s;
     padding-top: 0px;
+    opacity: 0;
 }
 
 #list_main_nav a {
@@ -594,10 +599,11 @@ h1{
 #list_main_nav a:hover {
     color: #e24141;
     background-color: #fff;
-
 }
 
-
+#list_main_nav li:last-child a{
+  border-bottom: none;
+}
 .inner_main_content h1{
   font-size: 40px;
 }
