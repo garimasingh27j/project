@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 h1{
   font-size: 48px;
 }
@@ -604,6 +608,7 @@ h1{
 #list_main_nav li:last-child a{
   border-bottom: none;
 }
+
 .inner_main_content h1{
   font-size: 40px;
 }
