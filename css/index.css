@@ -722,12 +722,14 @@ p.n-icons{
   flex: 1;
   display: flex;
   justify-content: flex-start;
+  margin-left: 0;
+
 }
 
 .logo img#logo_img{
-  width: 160px;
-  height: 80px;
-  margin-top: 20px;
+  /* width: 160px; */
+  height: 77px;
+  margin-top: 14px;
 }
 
 .inner_main_content{
