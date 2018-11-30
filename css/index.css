@@ -563,10 +563,12 @@ h1{
 
 #list_main_nav{
   display: block;
+  width: 0px;
 }
 #list_main_nav.active {
   right: 37px;
   opacity: 1;
+  width: 175px;
 }
 
 .nav_toggle{
