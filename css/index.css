@@ -563,7 +563,6 @@ h1{
 
 #list_main_nav{
   display: block;
-  width: 0px;
 }
 #list_main_nav.active {
   right: 37px;
@@ -580,7 +579,7 @@ h1{
 #list_main_nav {
     height: auto;
     overflow: hidden;
-    width: 175px;
+    width: 0px;
     position: absolute;
     z-index: 1;
     top: 50px;
